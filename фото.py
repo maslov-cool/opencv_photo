@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-image = cv2.imread('images\path.png')
+image = cv2.imread('path.png')
 
 image = cv2.resize(image, (image.shape[1] * 2, image.shape[0] * 2))
 #image = cv2.GaussianBlur(image, (9, 9), 0) --> размытие фото
